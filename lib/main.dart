@@ -6,9 +6,9 @@ import 'package:study_riverpod/screen/home_screen.dart';
 void main() {
   runApp(
     ProviderScope(
-      observers: [
-        Logger(),
-      ],
+      // observers: [
+      //   Logger(),
+      // ],
       child: MaterialApp(
         home: HomeScreen(),
       ),
